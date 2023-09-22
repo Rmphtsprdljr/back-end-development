@@ -17,6 +17,8 @@ app.post('/save', async (req, res) => {
         },
     });
     res.json({ user });
+    user,
+    message: 'User created succesfully.' /*changes*/
 });
 
 // USING GET METHOD. Listens for endpoint "/user" then runs a function that retrieves user data atleast one or none.
