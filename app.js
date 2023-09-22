@@ -16,6 +16,8 @@ app.post('/save', async (req, res) => {
             name,
         },
     });
+    
+    //Return newly created user to source
     res.json({ 
         user,
         message: 'User created succesfully.' /*changes*/
