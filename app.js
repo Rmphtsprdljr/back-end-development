@@ -19,7 +19,7 @@ app.post('/save', async (req, res) => {
 
     res.json({ 
         user,
-        message: 'User created successfully.'
+        message: 'User bwisit created'
      });
 });
 
